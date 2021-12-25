@@ -53,7 +53,7 @@ router.put("/:id", (req, res) => {
     },
     {
       where: {
-        id: HTMLTableRowElement.params.id,
+        id: req.params.id,
       },
     }
   )
